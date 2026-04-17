@@ -18,6 +18,19 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  openGraph: {
+    title: "Tharadon Labutda - Portfolio",
+    description: "Web Developer - Portfolio",
+    images: [
+      {
+        url: "/favicon-2.png",
+        width: 1200,
+        height: 630,
+        alt: "Tharadon Labutda",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
