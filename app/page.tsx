@@ -88,6 +88,7 @@ export default function Home() {
             { title: 'ตัวอย่างเว็บไซต์ Portfolio จำลอง', desc: 'หน้าเว็บ Portfolio จำลองขึ้นมาซึ่งจะมีหน้าขายของ', tags: ['HTML', 'CSS', 'JavaScript'], link: 'https://website3-g2yt.onrender.com/' },
             { title: 'หน้าเว็บขายสินค้าชื่อ Momiji', desc: 'หน้าร้านขายของออนไลน์ภายใต้ชื่อแบรนด์ Momiji', tags: ['React'], link: 'https://github.com/LordTuffy/MomijiSite' },
             { title: 'เกมส์ Ninja Quest', desc: 'เกมส์เดินเก็บผลไม้รับบทเป็นนินจาเต่า', tags: ['GDScript'], link: 'https://oak2546.itch.io/ninja-quest' },
+            { title: 'Galaxy', desc: '3D เว็บไซต์', tags: ['Vue.js & Three.js'], link: 'https://vue3d-git-main-65114340369s-projects.vercel.app/' },
           ].map((project, i) => (
             <div key={i} className="p-6 border border-gray-300 dark:border-gray-700 rounded-lg hover:shadow-lg transition flex flex-col">
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
