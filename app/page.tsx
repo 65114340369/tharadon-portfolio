@@ -24,15 +24,6 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen bg-[#1a1a1a] dark:bg-[#1a1a1a] flex flex-col justify-between px-4 sm:px-6 lg:px-8 py-20 overflow-hidden">
-        <video
-          src="/smoke.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover pointer-events-none"
-          style={{ mixBlendMode: 'screen' }}
-        />
         <div className="flex justify-between items-start">
           <div>
             <p className="text-gray-500 text-sm tracking-wider mb-8">Creative Presentation</p>
